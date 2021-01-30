@@ -1,0 +1,324 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+header{
+   background-image: linear-gradient(rgba(44, 44, 44, 0.74), rgba(52, 52, 52, 0.74)), url(images/dog2.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+}
+
+header h1{
+    font-weight: 300;
+    color: white;
+    font-size: 43px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+
+}
+
+ h2{
+    font-family: 'Kaushan Script', sans-serif;
+    color: #ffd369;
+    font-size: 50px;
+    line-height: 1.6;
+    top: 0;
+   
+}
+
+.headings{
+   /* transform: translate(10%, 100%) */
+   position: absolute;
+   /* margin-top: 175px;
+   margin-left: 120px; */
+   top: 36%;
+   left: 10%;
+}
+
+.main{
+    width: 100%;
+}
+
+nav{
+    width: 97%;
+    height: 80px;
+    display: flex; 
+    /* justify-content: flex-end; */
+    line-height: 30px;
+
+}
+
+
+nav ul li{
+    list-style-type: none;
+    /* display: inline-block; */
+    display: inline-flex;
+    padding: 17px 25px;
+    color: white;
+    /* justify-content: space-around; */
+}
+
+
+
+header h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    /* line-height: 1.6; */
+
+}
+
+hr{
+    margin-top: -15px;
+  border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(180, 135, 9, 0), rgba(212, 212, 212, 0.75), rgba(255, 255, 255, 0));
+
+}
+ .main ul li:hover{
+     background-color: #ffd369;
+     color: #393e46;
+     transition: ease-in-out 0.4s;
+ }
+
+ .nav-bar li:hover{
+   color:#393e46;
+   cursor: pointer;
+
+ }
+
+ /* .doggers{
+     float: left;
+     top: 0;
+     margin-right: 490px;
+ } */
+
+ .differentText{
+      font-family: 'Kaushan Script', sans-serif;
+    color: #ffd369;
+ }
+
+ /* .main ul li a:link{
+     text-decoration: none;
+ } */
+nav ul li a{
+    text-decoration: none;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+.link:hover{
+    color: #393e46;
+}
+nav{
+    justify-content: space-between;
+    margin: 0 10px 0 15px;
+}
+
+/* @media (max-width:952px){
+    nav ul{
+        position: fixed;
+        width: 30%;
+        height: 60vh;
+        background: #0007;
+    }
+
+    nav ul a li{
+        font-size: 16px;
+    }
+} */
+
+@media (max-width:858px){
+    nav ul{
+        position: fixed;
+        width: 30%;
+        height: 52vh;
+        /* position: absolute; */
+        background: #0007;
+        border-bottom-left-radius: 20px;
+        top: 67px;
+        right: -100%;
+        text-align: center;
+        z-index: 4;
+        transition: all .5s;
+        /* margin-left: 20px; */
+    }
+
+    nav ul a{
+        display: block;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    nav ul a li{
+        font-size: 20px;
+    }
+
+ .main ul li:hover{
+     background-color: transparent;
+     color: #ffd369;
+     transition: ease-in-out 0.4s;
+ }
+}
+
+@media all and (max-width: 768px){
+
+
+   header h1{
+       font-size: 30px;
+       margin-bottom: 10px;
+   }
+   .headings{
+      margin-left: 90px;
+      /* margin-top: 185px; */
+   }
+
+   header h3{
+       font-size: 13px;
+   }
+ 
+}
+
+@media screen and (max-width: 863px){
+    header{
+        background-size: cover;
+        width: 100%;
+    }
+
+    .headings h1{
+        font-size: 39px;
+    }
+    .headings h3{
+        font-size: 17px;
+    }
+
+    nav a li:hover{
+        
+        transition: all ease .5s;
+    }
+
+     #check:checked ~ul{
+        right: 0px;
+        margin: 0;
+        padding: none;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .headings h1{
+        font-size: 36px;
+    }
+    .headings h3{
+        font-size: 16px;
+    }
+
+    .headings{
+        left: -30px;
+        position: absolute;
+    }
+}
+
+
+@media screen and (max-width: 694px){
+        .headings h1{
+        font-size: 36px;
+    }
+    .headings h3{
+        font-size: 16px;
+    }
+
+    .headings{
+        left: -50px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 694px){
+        .headings{
+        left: -60px;
+        position: absolute;
+    }
+    header{
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 648px){
+    .headings h1{
+        font-size: 33px;
+    }
+    .headings h3{
+        font-size: 13px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 590px){
+       .headings h1{
+        font-size: 31px;
+    }
+    .headings h3{
+        font-size: 11px;
+        line-height: 25px;
+    }
+    header{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .headings h1{
+        font-size: 28px;
+    }
+    .headings h3{
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+        .headings{
+        left: -80px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 409px){
+    .headings h1{
+        font-size: 26px;
+    }
+    .headings h3{
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+        .headings{
+        /* top: 80px;
+        left: -80px; */
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 335px){
+     .headings h1{
+        font-size: 23px;
+    }
+    .headings h3{
+        font-size: 11px;
+        line-height: 12px;
+    }
+
+}

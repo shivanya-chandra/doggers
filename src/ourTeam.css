@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ourTeam{
+    background-color: #fff;
+    background-size: cover;
+    height: 100vh;
+}
+
+.ourTeam h4{
+    font-family: 'Reem Kufi';
+    text-align: center;
+    font-size: 48px;
+    font-weight: 300;
+    margin-top: 19px;
+
+}
+
+.ourTeam h4::after{
+        content: '';
+    width: 100px;
+    display: block;
+    align-items: center;
+    height: 1.5px;
+    background-color: #FFD369;
+    position: absolute;
+    margin-top: 20px;
+    left: 45%;
+    /* margin-left: 450px; */
+}
+
+/* .ourTeam hr{
+        width: 90px;
+        margin: 1px 0px 40px 600px;
+        height: 5px;
+        background-color:#FFD369;
+        border: none;
+} */
+
+/*TEAM CARDS*/
+/* .container{
+   
+} */
+
+.header{
+    padding-top: 60px ;
+    color: #444;
+    font-size: 20px;
+    margin: auto;
+    line-height: 50px;
+
+}
+
+.sub-container{
+    text-align: center;
+    background: #fff;
+    max-width: 1200px;
+    margin: auto;
+    padding: 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team{
+    margin: 37px 10px 10px 10px;
+    padding: 22px;
+    max-width: 30%;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+      background: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 8px 8px 24px rgba(175, 175, 175, 0.596);
+
+}
+.team img{
+    width: 200px;
+    height: 200px;
+    border: 16px solid #ebeef8;
+    border-radius: 50%;
+}
+
+.name{
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+/* .desig{
+    font-style: italic;
+    color: #888;
+} */
+
+.about{
+    margin: 20px 0;
+    font-weight: lighter;
+    color: #4e4e4e;
+}
+
+.social-media{
+    margin: 14px;
+}
+
+.social-media a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    transition: .4s ;
+    text-decoration: none;
+}
+
+.social-media a i{
+    color: #0A2F76;
+}
+
+.social-media a:hover{
+    transform: scale(1.5);
+}
+
+.team:hover{
+
+    transform: scale(0.9);
+}
+
+.name::after{
+    content: '';
+    width: 47px;
+    display: block;
+    height: 1.5px;
+    background-color: #FFD369;
+    position: absolute;
+    margin-top: 14px;
+    left: 43%;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 600px){
+    .team{
+        max-width: 100%;
+    }
+
+    .name::after{
+    content: '';
+    width: 47px;
+    display: block;
+    height: 1.5px;
+    background-color: #FFD369;
+    position: absolute;
+    margin-top: 14px;
+    left: 45%;
+    text-align: center;
+    
+}
+
+.ourTeam h4::after{
+        content: '';
+    width: 100px;
+    display: block;
+    align-items: center;
+    height: 1.5px;
+    background-color: #FFD369;
+    position: absolute;
+    margin-top: 20px;
+    left: 41%;
+    /* margin-left: 450px; */
+}
+}
+
+@media screen and (max-width: 480px){
+       .name::after{
+    content: '';
+    width: 47px;
+    display: block;
+    height: 1.5px;
+    background-color: #FFD369;
+    position: absolute;
+    margin-top: 14px;
+    left: 42%;
+    text-align: center;
+    
+}
+
+.ourTeam h4::after{
+        content: '';
+    width: 100px;
+    display: block;
+    align-items: center;
+    height: 1.5px;
+    background-color: #FFD369;
+    position: absolute;
+    margin-top: 20px;
+    left: 36%;
+    /* margin-left: 450px; */
+}
+}
+
+@media screen and (max-width: 360px){
+           .name::after{
+    content: '';
+    width: 47px;
+    display: block;
+    height: 1.5px;
+    background-color: #FFD369;
+    position: absolute;
+    margin-top: 14px;
+    left: 41%;
+    text-align: center;
+    
+}
+
+.ourTeam h4::after{
+        content: '';
+    width: 100px;
+    display: block;
+    align-items: center;
+    height: 1.5px;
+    background-color: #FFD369;
+    position: absolute;
+    margin-top: 20px;
+    left: 35%;
+    /* margin-left: 450px; */
+}
+}
+
+

@@ -1,0 +1,845 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header-about{
+    background-color: #E5E5E5;
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+}
+
+.box1 h4{
+    /* font-family: 'Reem Kufi'; */
+    /* text-align: center; */
+    /* font-size: 48px;
+    font-weight: 300; */
+    margin-top: 19px;
+    font-family: Roboto;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A2F76;
+
+}
+
+/* .hr-about{
+        width: 90px;
+        margin: 1px 0px 0px 600px;
+        height: 5px;
+        background-color:#FFD369;
+        border: none;
+        
+        
+} */
+
+.flex-container{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: 'Reem Kufi';
+    
+}
+
+.box1{
+    width: 35%;
+    margin-left: 10px;
+    margin-right: 35px;
+    
+}
+
+.box1 h5{
+    font-family: Reem Kufi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+
+}
+
+.box2 img{
+    /* width: 35%;  */
+    /* margin-left: 20px; */
+    margin-right: 60px;
+    position: absolute;
+    width: 678px;
+    height: 385px;
+}
+
+.box2{
+    margin-left: 30px;
+}
+
+.button {
+  margin-top: 40px;
+  background-color: #FFD369; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+
+@media screen and (max-width: 1039px){
+   .box1{
+    width: 37%;
+    margin-left: 10px;
+    margin-right: 35px;
+    
+}
+   
+    .box1 h4{
+    margin-top: 19px;
+    font-family: Roboto;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A2F76;
+
+}
+
+.box1 h5{
+    font-family: Reem Kufi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+
+}
+
+.button {
+  margin-top: 40px;
+  background-color: #FFD369; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+
+.box2 img{
+    margin-right: 60px;
+    position: absolute;
+    width: 498px;
+    height: 385px;
+}
+
+.box2{
+    margin-left: 30px;
+}
+
+}
+
+@media screen and (max-width: 1020px){
+       .box1{
+    width: 37%;
+    margin-left: 10px;
+    margin-right: 35px;
+    
+}
+   
+    .box1 h4{
+    margin-top: 19px;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A2F76;
+
+}
+
+.box1 h5{
+    font-family: Reem Kufi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+
+}
+
+.button {
+  margin-top: 40px;
+  background-color: #FFD369; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+
+.box2 img{
+    margin-right: 60px;
+    position: absolute;
+    width: 448px;
+    height: 385px;
+}
+
+.box2{
+    margin-left: 60px;
+}
+}
+
+@media screen and (max-width: 965px){
+     .box1{
+    width: 37%;
+    margin-left: 10px;
+    margin-right: 35px;
+    
+}
+   
+    .box1 h4{
+    margin-top: 19px;
+    font-family: Roboto;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A2F76;
+
+}
+
+.box1 h5{
+    font-family: Reem Kufi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+
+}
+
+.button {
+  margin-top: 40px;
+  background-color: #FFD369; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+
+.box2 img{
+    margin-right: 60px;
+    position: absolute;
+    width: 448px;
+    height: 385px;
+}
+
+.box2{
+    margin-left: 60px;
+}
+}
+
+@media screen and (max-width: 882px){
+         .box1{
+    width: 37%;
+    margin-left: 10px;
+    margin-right: 35px;
+    
+}
+   
+    .box1 h4{
+    margin-top: 19px;
+    font-family: Roboto;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A2F76;
+
+}
+
+.box1 h5{
+    font-family: Reem Kufi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+
+}
+
+.button {
+  margin-top: 40px;
+  background-color: #FFD369; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+
+.box2 img{
+    margin-right: 60px;
+    position: absolute;
+    width: 448px;
+    height: 385px;
+}
+
+.box2{
+    margin-left: 60px;
+}
+}
+
+@media screen and (max-width: 800px){
+    .flex-container{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: 'Reem Kufi';
+    
+}
+
+    .box1 h4{
+    margin-top: 19px;
+    font-family: Roboto;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A2F76;
+
+}
+
+.box1 h5{
+    font-family: Reem Kufi;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+
+}
+
+.box2 img{
+    left: -10px;
+    position: absolute;
+    width: 648px;
+    height: 385px;
+}
+.box2{
+    margin-left: 0px;
+}
+
+.box1{
+    width: 60%;
+    margin-top: 450px;
+    /* margin-right: 35px; */
+    
+}
+
+.header-about{
+    background-color: #E5E5E5;
+   background-size: cover;
+   background-position: center;
+   height: 200vh;
+}
+}
+
+@media screen and (max-width: 600px){
+        .flex-container{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: 'Reem Kufi';
+    
+}
+
+    .box1 h4{
+    margin-top: 19px;
+    font-family: Roboto;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A2F76;
+
+}
+
+.box1 h5{
+    font-family: Reem Kufi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 70px;
+
+}
+
+.box2 img{
+    left: -10px;
+    position: absolute;
+    width: 578px;
+    height: 385px;
+}
+.box2{
+    margin-left: 0px;
+}
+
+.box1{
+    width:90%;
+    margin-top: 450px;
+    /* margin-right: 35px; */
+    
+}
+
+.header-about{
+    background-color: #E5E5E5;
+   background-size: cover;
+   background-position: center;
+   height: 200vh;
+}
+
+.button {
+  margin-top: 80px;
+  background-color: #FFD369; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+
+}
+
+@media screen and (max-width:500px){
+            .flex-container{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-family: 'Reem Kufi';
+    
+}
+
+    .box1 h4{
+    margin-top: 19px;
+    font-family: Roboto;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A2F76;
+    /* margin-right: 190px; */
+
+}
+
+.box1 h5{
+    font-family: Reem Kufi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 70px;
+
+}
+
+.box2 img{
+    left: -10px;
+    position: absolute;
+    width: 487px;
+    height: 385px;
+}
+.box2{
+    margin-left: 0px;
+}
+
+.box1{
+    width: 90%;
+    margin-top: 450px;
+    /* margin-right: 105px; */
+    
+}
+
+.header-about{
+    background-color: #E5E5E5;
+   background-size: cover;
+   background-position: center;
+   height: 185vh;
+}
+
+.button {
+  margin-top: 80px;
+  background-color: #FFD369; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+
+}
+
+@media screen and (max-width: 432px){
+                .flex-container{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family: 'Reem Kufi';
+    
+}
+
+    .box1 h4{
+    margin-top: 19px;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A2F76;
+    /* margin-right: 190px; */
+
+}
+
+.box1 h5{
+    font-family: Reem Kufi;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 70px;
+
+}
+
+.box2 img{
+    left: -10px;
+    position: absolute;
+    width: 407px;
+    height: 385px;
+}
+.box2{
+    margin-left: 0px;
+}
+
+.box1{
+    width: 90%;
+    margin-top: 450px;
+    /* margin-right: 105px; */
+    
+}
+
+.header-about{
+    background-color: #E5E5E5;
+   background-size: cover;
+   background-position: center;
+   height: auto;
+}
+
+.button {
+  margin-top: 70px;
+  background-color: #FFD369; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+
+}
+
+@media screen and (max-width: 402px){
+                   .flex-container{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family: 'Reem Kufi';
+    
+}
+
+    .box1 h4{
+    margin-top: 19px;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A2F76;
+    /* margin-right: 190px; */
+
+}
+
+.box1 h5{
+    font-family: Reem Kufi;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 70px;
+
+}
+
+.box2 img{
+    left: -10px;
+    position: absolute;
+    width: 390px;
+    height: 385px;
+}
+.box2{
+    margin-left: 0px;
+}
+
+.box1{
+    width: 90%;
+    margin-top: 450px;
+    /* margin-right: 105px; */
+    
+}
+
+.header-about{
+    background-color: #E5E5E5;
+   background-size: cover;
+   background-position: center;
+   height: 185vh;
+}
+
+.button {
+  margin-top: 80px;
+  background-color: #FFD369; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+
+}
+
+@media screen and (max-width: 383px){
+  .flex-container{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family: 'Reem Kufi';
+    
+}
+
+    .box1 h4{
+    margin-top: 19px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A2F76;
+    /* margin-right: 190px; */
+
+}
+
+.box1 h5{
+    font-family: Reem Kufi;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 50px;
+
+}
+
+.box2 img{
+    left: -10px;
+    position: absolute;
+    width: 370px;
+    height: 385px;
+}
+.box2{
+    margin-left: 0px;
+}
+
+.box1{
+    width: 90%;
+    margin-top: 450px;
+    /* margin-right: 105px; */
+    
+}
+
+.header-about{
+    background-color: #E5E5E5;
+   background-size: cover;
+   background-position: center;
+   height: auto;
+}
+
+.button {
+  margin-top: 60px;
+  background-color: #FFD369; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+
+}
+
+@media screen and (max-width: 360px){
+    .flex-container{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: 'Reem Kufi';
+    
+}
+
+    .box1 h4{
+    margin-top: 19px;
+    font-family: Roboto;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A2F76;
+    /* margin-right: 190px; */
+
+}
+
+.box1 h5{
+    font-family: Reem Kufi;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 50px;
+
+}
+
+.box2 img{
+    left: -10px;
+    position: absolute;
+    width: 330px;
+    height: 385px;
+}
+.box2{
+    margin-left: 0px;
+}
+
+.box1{
+    width: 90%;
+    margin-top: 450px;
+    /* margin-right: 105px; */
+    
+}
+
+.header-about{
+    background-color: #E5E5E5;
+   background-size: cover;
+   background-position: center;
+   height: 185vh;
+}
+
+.button {
+  margin-top: 60px;
+  background-color: #FFD369; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+}

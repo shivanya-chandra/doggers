@@ -1,0 +1,634 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dog-container-2{
+    background-image: linear-gradient(rgba(56, 56, 56, 0.44), rgba(82, 82, 82, 0.44)),url(images/adopt-2-photo.jpg);
+       background-size: cover;
+   background-position: center;
+   height: 100vh;
+}
+
+.content-header h6{
+    /* width: 338px; */
+    /* height: 98px; */
+    margin-left: 252px;
+    margin-top: 40px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    /* line-height: 75px; */
+    color: #FFFFFF;
+}
+
+.content-header{
+    display: block;
+    height: 480px;
+    width: 512px;
+    margin-left: 50px;
+   
+}
+.content-header h1{
+/* width: 300px; */
+margin-bottom: -70px;
+height: 161px;
+margin-left: 203px;
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+font-size: 94px;
+/* line-height: 171px; */
+color: #FDECA6;
+}
+
+.content-header p{
+    margin-top: 60px;
+    margin-left: 100px;
+    font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 40px;
+
+color: #FFFFFF;
+}
+
+.adopt-button{
+  margin-top: 25px;
+  margin-left: 350px;
+  background-color: #FDECA6; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+
+@media screen and (max-width: 686px){
+    .dog-container-2{
+        width: 100%;
+        height: auto;
+    background-size: cover;
+   background-position: center;
+    }
+
+    .content-header{
+    display: block;
+    height: 480px;
+    width: 512px;
+    margin-left: 10px;
+   
+}
+}
+
+@media screen and (max-width: 600px){
+        .dog-container-2{
+            width: 100%;
+            height: auto;
+            background-size: cover;
+            background-position: center;
+    }
+
+    .content-header p{
+    margin-top: 60px;
+    margin-left: 80px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.content-header{
+    display: block;
+    height: 480px;
+    width: 490px;
+    margin-left: 10px;
+   
+}
+
+.content-header h1{
+/* width: 300px; */
+margin-bottom: -70px;
+height: 161px;
+margin-left: 183px;
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+font-size: 94px;
+/* line-height: 171px; */
+color: #FDECA6;
+}
+
+.content-header h6{
+    /* width: 338px; */
+    /* height: 98px; */
+    margin-left: 232px;
+    margin-top: 40px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    /* line-height: 75px; */
+    color: #FFFFFF;
+}
+
+
+.adopt-button{
+    padding: 12px 30px;
+    margin-top: 20px;
+}
+
+}
+
+@media screen and (max-width: 576px){
+            .dog-container-2{
+            width: 100%;
+            height: auto;
+            background-size: cover;
+            background-position: center;
+    }
+
+    .content-header p{
+    margin-top: 60px;
+    margin-left: 60px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.content-header{
+    display: block;
+    height: 480px;
+    width: 470px;
+    margin-left: 10px;
+   
+}
+
+.content-header h1{
+/* width: 300px; */
+margin-bottom: -70px;
+height: 161px;
+margin-left: 163px;
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+font-size: 94px;
+/* line-height: 171px; */
+color: #FDECA6;
+}
+
+.content-header h6{
+    /* width: 338px; */
+    /* height: 98px; */
+    margin-left: 212px;
+    margin-top: 40px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    /* line-height: 75px; */
+    color: #FFFFFF;
+}
+
+.adopt-button{
+  margin-top: 25px;
+  margin-left: 330px;
+  background-color: #FDECA6; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+
+}
+
+@media screen and (max-width: 543px){
+             .dog-container-2{
+            width: 100%;
+            height: auto;
+            background-size: cover;
+            background-position: center;
+    }
+
+    .content-header p{
+    margin-top: 60px;
+    margin-left: 40px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.content-header{
+    display: block;
+    height: 480px;
+    width: 450px;
+    margin-left: 10px;
+   
+}
+
+.content-header h1{
+/* width: 300px; */
+margin-bottom: -70px;
+height: 141px;
+margin-left: 163px;
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+font-size: 94px;
+/* line-height: 171px; */
+color: #FDECA6;
+}
+
+.content-header h6{
+    /* width: 338px; */
+    /* height: 98px; */
+    margin-left: 192px;
+    margin-top: 40px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    /* line-height: 75px; */
+    color: #FFFFFF;
+}
+
+.adopt-button{
+  margin-top: 25px;
+  margin-left: 310px;
+  background-color: #FDECA6; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+}
+
+@media screen and (max-width: 513px){
+                .dog-container-2{
+            width: 100%;
+            height: auto;
+            background-size: cover;
+            background-position: center;
+    }
+
+    .content-header p{
+    margin-top: 60px;
+    margin-left: 20px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.content-header{
+    display: block;
+    height: 480px;
+    width: 430px;
+    margin-left: 10px;
+   
+}
+
+.content-header h1{
+/* width: 300px; */
+margin-bottom: -70px;
+height: 121px;
+margin-left: 163px;
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+font-size: 94px;
+/* line-height: 171px; */
+color: #FDECA6;
+}
+
+.content-header h6{
+    /* width: 338px; */
+    /* height: 98px; */
+    margin-left: 172px;
+    margin-top: 40px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    /* line-height: 75px; */
+    color: #FFFFFF;
+}
+
+.adopt-button{
+  margin-top: 25px;
+  margin-left: 290px;
+  background-color: #FDECA6; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+}
+
+@media screen and (max-width: 481px){
+        .dog-container-2{
+            width: 100%;
+            height: auto;
+            background-size: cover;
+            background-position: center;
+    }
+
+    .content-header p{
+    margin-top: 80px;
+    margin-left: 40px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.content-header{
+    display: block;
+    height: 480px;
+    width: 390px;
+    margin-left: 10px;
+   
+}
+
+.content-header h1{
+/* width: 300px; */
+margin-bottom: -70px;
+height: 121px;
+margin-left: 133px;
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+font-size: 90px;
+/* line-height: 171px; */
+color: #FDECA6;
+}
+
+.content-header h6{
+    /* width: 338px; */
+    /* height: 98px; */
+    margin-left: 172px;
+    margin-top: 40px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    /* line-height: 75px; */
+    color: #FFFFFF;
+}
+
+.adopt-button{
+  margin-top: 45px;
+  margin-left: 270px;
+  background-color: #FDECA6; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+}
+
+@media screen and (max-width: 447px){
+            .dog-container-2{
+            width: 100%;
+            height: auto;
+            background-size: cover;
+            background-position: center;
+    }
+
+    .content-header p{
+    margin-top: 80px;
+    margin-left: 40px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.content-header{
+    display: block;
+    height: 480px;
+    width: 360px;
+    margin-left: 10px;
+   
+}
+
+.content-header h1{
+/* width: 300px; */
+margin-bottom: -70px;
+height: 121px;
+margin-left: 103px;
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+font-size: 86px;
+/* line-height: 171px; */
+color: #FDECA6;
+}
+
+.content-header h6{
+    /* width: 338px; */
+    /* height: 98px; */
+    margin-left: 142px;
+    margin-top: 40px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    /* line-height: 75px; */
+    color: #FFFFFF;
+}
+
+.adopt-button{
+  margin-top: 45px;
+  margin-left: 215px;
+  background-color: #FDECA6; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+}
+
+@media screen and (max-width: 397px){
+    .dog-container-2{
+            width: 100%;
+            height: auto;
+            background-size: cover;
+            background-position: center;
+    }
+
+    .content-header p{
+    margin-top: 80px;
+    margin-left: 40px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.content-header{
+    display: block;
+    height: 480px;
+    width: 320px;
+    margin-left: 10px;
+   
+}
+
+.content-header h1{
+/* width: 300px; */
+margin-bottom: -70px;
+height: 121px;
+margin-left: 93px;
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+font-size: 82px;
+/* line-height: 171px; */
+color: #FDECA6;
+}
+
+.content-header h6{
+    /* width: 338px; */
+    /* height: 98px; */
+    margin-left: 132px;
+    margin-top: 40px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    /* line-height: 75px; */
+    color: #FFFFFF;
+}
+
+.adopt-button{
+  margin-top: 45px;
+  margin-left: 195px;
+  background-color: #FDECA6; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+}
+
+@media screen and (max-width: 360px){
+        .dog-container-2{
+            width: 100%;
+            height: auto;
+            background-size: cover;
+            background-position: center;
+    }
+
+    .content-header p{
+    margin-top: 80px;
+    margin-left: 30px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.content-header{
+    display: block;
+    height: 480px;
+    width: 300px;
+    margin-left: 10px;
+   
+}
+
+.content-header h1{
+/* width: 300px; */
+margin-bottom: -70px;
+height: 121px;
+margin-left: 83px;
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+font-size: 78px;
+/* line-height: 171px; */
+color: #FDECA6;
+}
+
+.content-header h6{
+    /* width: 338px; */
+    /* height: 98px; */
+    margin-left: 122px;
+    margin-top: 40px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    /* line-height: 75px; */
+    color: #FFFFFF;
+}
+
+.adopt-button{
+  margin-top: 45px;
+  margin-left: 175px;
+  background-color: #FDECA6; /* Green */
+  border: none;
+  color: #0A2F76;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: none;
+  font-family: Reem Kufi;
+}
+}

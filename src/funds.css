@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.funds-container{
+    background: rgba(251, 245, 230, 0.74);
+    height: 100vh;
+    /* width: 1500px; */
+    width: 100%;
+    flex: 2;
+    clip-path: circle(94.3% at 6% 50%);
+    z-index: 0;
+}
+
+.funds-flex{
+    display: flex;
+}
+
+.funds-container img{
+    position: absolute;
+    /* width: 556px; */
+    height: 462px;
+     left: 82px; 
+    /* top: 150px; */
+    z-index: 0;
+
+}
+
+.content-funds{
+    /* background: blue; */
+    /* width: 702px; */
+    flex: 1;
+    margin-right: -20px;
+}
+.content-funds h6{
+    /* position: absolute; */
+     width: 550px;
+    height: 176px;
+    /* left: 800px; */
+    margin-top: 50px; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 84px;
+    color: #3F3D56; 
+    }
+
+.content-funds h3{
+    /* position: absolute; */
+    width: 481px;
+    height: 100px;
+    margin-top: 40px;
+    /* left: 868px;
+    top: 450px; */
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 37px;
+    color: #000000; 
+    }
+
+.button-2 {
+  margin-top: 90px;
+  border: none;
+  color: #0A2F76;
+  /* padding: 19px 50px; */
+  width: 201px;
+  height: 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Reem Kufi;
+  background: #FFD369;
+border-radius: 24px;
+}
+
+.button-2:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1050px){
+    .funds-container{
+       clip-path: circle(76.5% at 0 48%);
+    }
+
+    .funds-container img{
+        left: 20px;
+        width: 40%;
+         height: 432px;
+          top: 140px;
+    }
+
+    
+}
+
+@media screen and (max-width: 935px){
+    .content-funds h6{
+        width: 400px;
+        height: 180px;
+        font-size: 64px;
+    }
+
+    .content-funds h3{
+        width: 380px;
+        height: 110px;
+        font-size: 21px;
+
+    }
+}
+
+@media screen and (max-width: 812px){
+       .content-funds h6{
+        width:  350px;
+        height: 180px;
+        font-size: 60px;
+    }
+    
+    .funds-container img{
+        left: 20px;
+        width: 40%;
+         height: 400px;
+         top: 140px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .content-funds h6{
+        width: 320px;
+         height: 120px;
+        font-size: 52px;
+    }
+
+        .content-funds h3{
+        margin-top: 70px;
+        width: 280px;
+        height: 90px;
+        font-size: 18px;
+
+    }
+
+    .button-2{
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 715px){
+      .content-funds h6{
+        width: 320px;
+         height: 90px;
+        font-size: 52px;
+    }
+
+        .content-funds h3{
+        margin-top: 100px;
+        width: 250px;
+        height: 70px;
+        font-size: 18px;
+
+    }
+      .button-2{
+        margin-top: 150px;
+    }
+        .funds-container{
+       clip-path: circle(62.9% at 0 48%);
+    }
+}
+@media screen and (max-width: 650px){
+    .funds-flex{
+        display: block;
+    }
+       .funds-container{
+       clip-path: circle(84.3% at 6% 50%);
+    }
+        .funds-container img{
+        left: 20px;
+        width: 70%;
+         height: 432px;
+          top: 140px;
+    }
+
+    .content-funds{
+        padding-left: 50px;
+    }
+            .content-funds h3{
+        margin-top: 100px;
+        width: 300px;
+        height: 70px;
+        font-size: 20px;
+
+    }
+
+          .content-funds h6{
+        width: 320px;
+         height: 110px;
+        font-size: 55px;
+    }
+    .button-2{
+    width: 151px;
+  height: 55px;
+  margin-top: 180px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .funds-flex{
+        width: 100%;
+    }
+
+    .funds-container{
+        width: 100%;
+        height: 90vh;
+    }
+
+    .funds-container img{
+        width: 90%;
+        height: 65%;
+    }
+}
+@media screen and (max-width: 320px){
+         .content-funds h3{
+        margin-top: 100px;
+        width: 250px;
+        height: 61px;
+        font-size: 18px;
+
+    }
+
+          .content-funds h6{
+        width: 290px;
+         height: 90px;
+        font-size: 46px;
+    }
+}
+
+@media screen and (max-width: 474px){
+    
+    .funds-container img{
+        width: 80%;
+        height: 65%;
+    }
+
+    .funds-container{
+       clip-path: circle(74.3% at 6% 50%);
+    }
+}
+
+@media screen and (max-width: 409px){
+    .content-funds h3{
+        margin-top: 100px;
+        width: 250px;
+        height: 61px;
+        font-size: 18px;
+
+    }
+
+          .content-funds h6{
+        width: 280px;
+         height: 70px;
+        font-size: 46px;
+    }
+}
+
+@media screen and (max-width: 390px){
+        .funds-container img{
+        width: 77%;
+        height: 65%;
+    }
+
+    .funds-container{
+       clip-path: circle(69.3% at 6% 50%);
+    }
+}
