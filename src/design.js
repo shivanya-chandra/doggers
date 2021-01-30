@@ -25,7 +25,7 @@ function Design() {
 
                         <ul className='nav-bar'>
                             <a className='link' href='/'><li>Home</li></a>
-                            <a className='link' href='/funds'><li>Funds</li></a>
+                            <a className='link' href='/funds'><li>Donate</li></a>
                             <a className='link' href='/adopt'><li>Adopt</li></a>
                             <a className='link' href='/about'><li>About</li></a>
                             {/* <a className='link' href='#'><li>Contact</li></a> */}
