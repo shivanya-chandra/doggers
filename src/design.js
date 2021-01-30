@@ -28,7 +28,7 @@ function Design() {
                             <a className='link' href='/funds'><li>Funds</li></a>
                             <a className='link' href='/adopt'><li>Adopt</li></a>
                             <a className='link' href='/about'><li>About</li></a>
-                            <a className='link' href='#'><li>Contact</li></a>
+                            {/* <a className='link' href='#'><li>Contact</li></a> */}
                         </ul>
                         
                     </nav>

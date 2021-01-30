@@ -16,25 +16,25 @@ const team = [
     {
         id: 2,
         image: ourTeam,
-        name: 'Peggy Vsion',
+        name: 'Tom Anderson',
         content: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ',
     },
     {
         id: 3,
         image: ourTeam2,
-        name: 'Wanda Petronski',
+        name: 'Tim Blake',
         content: 'The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ',
     },
     {
         id: 4,
         image: ourTeam3,
-        name:'Valli Amma',
+        name:'Zack Antonio',
         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis magna rhoncus, luctus magna auctor, ',
     },
     {
         id: 5,
         image: ourTeam4,
-        name: 'Ram Lal',
+        name: 'Skye Duncan',
         content: 'sollicitudin lacus. Suspendisse potenti. Ut nunc enim, sagittis ut sapien id, hendrerit iaculis lectus. Nullam lorem orci, ',
     },
     {
